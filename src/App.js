@@ -7,6 +7,7 @@ import {
 import Navbar from "./components/Navbar";
 import SubNavbar from "./components/SubNavbar";
 import Notification from "./components/Notification";
+import home from "./routes/home";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <Navbar />
       <SubNavbar />
       <Routes>
-        <Route />
+        <Route path="/" Component={home} />
       </Routes>
     </Router>
   );
