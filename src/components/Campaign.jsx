@@ -4,7 +4,7 @@ function Campaign() {
     return (
         <div className='mt-5 p-5 bg-white rounded-2xl'>
             <div className=''>
-                <img src="https://images.unsplash.com/photo-1707343843598-39755549ac9a?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="campaign" className='h-32 w-full rounded-2xl' />
+                <img src="https://images.unsplash.com/photo-1707343843598-39755549ac9a?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="campaign" className='h-44 w-full rounded-2xl' />
             </div>
             <div className='w-full flex justify-center items-center flex-col gap-5 mt-5 md:flex-row'>
                 <div className='w-full h-80'>
