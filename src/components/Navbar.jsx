@@ -9,7 +9,7 @@ function Navbar() {
         setIsOpen(prev => !prev)
     }
     return (
-        <nav className='bg-[#F2F1EB] w-full h-16 flex justify-between px-8 lg:px-12 xl:px-20 items-center'>
+        <nav className='bg-[#F2F1EB] relative w-full h-16 flex justify-between px-8 lg:px-12 xl:px-20 items-center'>
             <div className='w-12 h-14 rounded-full'>
                 <img src={LOGO} alt="logo" className='w-full h-full rounded-full' />
             </div>
@@ -41,7 +41,7 @@ function Navbar() {
 
                     }
                 </div>
-                <div className={`${isOpen ? "block" : "hidden"} absolute w-full h-screen top-16 left-0 bg-[#EEE7DA]`}>
+                <div className={`${isOpen ? "block" : "hidden"} absolute w-full h-screen top-16 left-0 bg-[#EEE7DA] z-50`}>
 
                 </div>
             </div>
