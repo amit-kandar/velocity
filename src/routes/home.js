@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import Campaign from '../components/Campaign'
 import SellProduct from '../components/SellProduct'
 import SellBanner from '../components/SellBanner'
+import Product from '../components/Product'
 
 function home() {
     return (
@@ -11,6 +12,7 @@ function home() {
             <Campaign />
             <SellProduct />
             <SellBanner />
+            <Product />
         </div>
     )
 }
